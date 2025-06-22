@@ -32,3 +32,8 @@ function processPayroll(employee) {
     netPay: netPay.toFixed(2)
   };
 }
+
+for (const emp of employees) {
+  const payroll = processPayroll(emp);
+  console.log(payroll);
+}
